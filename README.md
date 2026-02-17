@@ -1,24 +1,18 @@
-# README
+# DiveIntoCode
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains the Ingashyi platform implementation workstream.
 
-Things you may want to cover:
+## Project documentation
 
-* Ruby version
+- Phase 1 inception pack (Laravel stack):
+  - `docs/ingashyi_phase1_inception.md`
 
-* System dependencies
+## Development (Laravel)
 
-* Configuration
+Use Laravel/PHP commands for local setup and execution.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Install dependencies: `composer install`
+- Configure environment: `cp .env.example .env`
+- Generate app key: `php artisan key:generate`
+- Run migrations: `php artisan migrate`
+- Run tests: `php artisan test`
